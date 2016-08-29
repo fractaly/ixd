@@ -7,6 +7,7 @@ highlighter: rouge
 url: 'https://reimertz.github.io/ixd'
 collections:
   - news
+  - projects
 prose:
   siteurl: 'https://reimertz.github.io/ixd'
   media: media
