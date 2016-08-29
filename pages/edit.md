@@ -13,6 +13,11 @@ order: 99999
 </h4>
 
 <h4>
+  <a href="http://prose.io/#reimertz/ixd/new/master/_projects" target="_blank">projects</a>
+  <a href="http://prose.io/#reimertz/ixd/tree/master/_projects" target="_blank"><i>(see all)</i></a>
+</h4>
+
+<h4>
   <a href="http://prose.io/#reimertz/ixd/tree/master/_data/who" target="_blank">Who</a>
 </h4>
 

@@ -67,3 +67,18 @@ prose:
           element: "checkbox"
           label: "Published?"
           value: true
+    _projects:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: true
