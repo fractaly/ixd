@@ -1,0 +1,28 @@
+{
+  "name": "ixd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass sass/main.scss -o css",
+    "css:watch": "npm run css && node-sass sass/main.scss -wo css",
+    "dev": "jekyll serve --config _config_dev.yml & npm run css:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reimertz/ixd.git"
+  },
+  "author": "Pierre Reimerz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prose/starter/issues"
+  },
+  "homepage": "https://github.com/prose/starter#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "node-sass": "^3.8.0"
+  }
+}

@@ -1,0 +1,68 @@
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: false
+highlighter: rouge
+url: 'http://reimertz.github.io/ixd'
+collections:
+  - news
+prose:
+  siteurl: 'http://reimertz.github.io/ixd'
+  media: media
+  ignore:
+    - CNAME
+    - Gemfile
+    - package.json
+    - .gitignore
+    - .gitignore
+    - /css
+    - /sass
+    - /img
+    - /js
+    - index.md
+    - _config.yml
+    - _config_dev.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    pages:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "color"
+        field:
+          element: "text"
+          label: "Color"
+          value: "#"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Link"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: ""
+    _news:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: true

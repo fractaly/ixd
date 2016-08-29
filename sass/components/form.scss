@@ -1,0 +1,14 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  height: 40px;
+  border: none;
+}
