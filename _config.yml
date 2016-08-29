@@ -4,11 +4,11 @@ kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
   hard_wrap: false
 highlighter: rouge
-url: 'http://reimertz.github.io/ixd'
+url: 'https://reimertz.github.io/ixd'
 collections:
   - news
 prose:
-  siteurl: 'http://reimertz.github.io/ixd'
+  siteurl: 'https://reimertz.github.io/ixd'
   media: media
   ignore:
     - CNAME
